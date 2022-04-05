@@ -1,8 +1,8 @@
-.button {
+.btn-general{
   text-decoration: none;
   background-color: #5D05CC;
-  color: white;
-  padding: 10px 100px;
+  color: $textcolor;
+  padding: 6px 35px;
   border-radius: 8px;
   font-weight: bold;
   font-size: 10px;
@@ -13,4 +13,13 @@
   background-color: #6606db;
   color: white;
   transition: 0.3s;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  display: flex;
 }
